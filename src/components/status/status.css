@@ -1,0 +1,52 @@
+.leave-status-table{
+    width: 100%;
+    font-size: 1.6rem;
+}
+.leave-status-table tr{
+    white-space: nowrap;
+}
+.leave-status-table td,.leave-status-table  th{
+    padding: 1rem 2.5rem;
+   
+}
+.leave-status-table th{
+    font-size: 1.4rem;
+    color: #737373 ;
+    text-transform: capitalize;
+}
+.leave-status-table tbody tr{
+   border-bottom: 1px solid rgb(202, 200, 200);
+}
+.leave-status__info,
+.leave-status__request-no{
+    width: 99%;
+
+}
+.leave-status__info .request-no ,
+.leave-status__request-no {
+    color:rgb(216, 119, 8);
+    font-weight:bold
+}
+.leave-status__info .range span{
+    color: grey;
+}
+
+
+@media screen and (max-width:450px) {
+
+.leave-status-table td,.leave-status-table th{
+    padding:0.5rem;
+}   
+.leave-status__request-no{
+    display: none;
+}
+    .leave-status-table .collapsible{
+        display: none;
+    }
+}
+@media screen and (min-width:450px){
+    .leave-status__info {
+        display: none;
+    }
+    
+}

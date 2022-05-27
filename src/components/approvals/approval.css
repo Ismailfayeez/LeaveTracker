@@ -1,0 +1,64 @@
+.leave-approval-table{
+    width: 100%;
+    font-size: 1.6rem;
+}
+.leave-approval-table,.leave-approval-table th ,.leave-approval-table td{ 
+    border-collapse: separate;
+    border-spacing: 0 1.5rem;  
+}
+
+.leave-approval-table td,.leave-approval-table  th{
+    padding: 0.5rem 2.5rem;
+}
+
+.leave-approval-table .info{
+    width:99%
+}
+.leave-approval-table .info .request-no{
+    font-weight: bold;
+}
+.leave-approval-table tbody tr{
+    white-space: nowrap;
+    background-color: rgb(248, 235, 205);
+    border-spacing:  1rem 0;
+   
+}
+.leave-approval-table td:first-child{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.leave-approval-table td:last-child{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.leave-approval-table .range label::after{
+    content: ":";
+
+}
+
+@media screen and (max-width:450px) {
+    
+.leave-approval-table td,.leave-approval-table  th{
+    padding:0.5rem;
+}
+
+    .leave-approval-table .collapsible-sm{
+        display: none;
+    }
+}
+@media screen and (max-width:900px){
+    .leave-approval-table  .collapsible-md{
+        display: none;
+    }
+}
+
+.modal-confirmation-text{
+    margin: 2rem 0;
+}
+
+.leave-approval-table .approve-reject{
+    display:none
+}
+.leave-approval-table.new-approval-table .approve-reject{
+    display: table-cell;
+}

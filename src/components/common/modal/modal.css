@@ -1,0 +1,50 @@
+.modal__container{
+  
+  width: 70%;
+  max-height: 50%;
+  background-color: white;
+  
+  
+  flex-direction: column;
+  
+}
+.modal-container{
+    position: fixed;
+    display: flex;
+    background-color: rgba(0,0,0,0.5);
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.modal-popup{
+position: relative;
+width:60%;
+height:60%;
+background-color: white;
+z-index: 5;
+border-radius: 1rem;
+overflow: auto;
+}
+.modal-header{
+margin:1rem;
+position: sticky;
+top:0;
+}
+.modal-closebutton{
+  position: absolute;
+  top: 0;
+  right: 2rem;
+  transform: rotate(45deg);
+  cursor: pointer;
+}
+.modal-body{
+    overflow: hidden;
+}
+.modal-footer{
+    position: absolute;
+    bottom: 0;
+}
