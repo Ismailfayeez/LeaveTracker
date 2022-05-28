@@ -1,5 +1,5 @@
 import axios from "axios";
-axios.defaults.headers.common["Authorization"] = 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjUyNzk5NjcwLCJqdGkiOiI1ZDBlYzU3NGUwYTU0NzUzODRkNTI3Y2E3MWM1MzYxZiIsInVzZXJfaWQiOiJyYWppbmlAZ21haWwuY29tIn0.Z-NP9cRiBnG76xZCtUlQtLy_5sjWe-wBALMveGQSb9Y'
+axios.defaults.headers.common["Authorization"] = 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoxNjUzNzQ4NzA3LCJqdGkiOiJlZDY5N2I5ODg3OWU0OGE3YTQ5NWI0ZTMxNWE2MzQzMiIsInVzZXJfaWQiOiJyYWppbmlAZ21haWwuY29tIn0.cMgN0FW7F51rVqm1I-DG_EYWsCO7WihIkSExhplDtGc'
 axios.interceptors.response.use(null, error => {
   const expectedError =
     error.response &&

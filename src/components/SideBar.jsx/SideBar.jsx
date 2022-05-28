@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 function SideBar(props) {
     const {displaySideBar,handleDisplaySideBar}=props
-    let menu=[{path:'dashboard',label:'Dashboard'},
-    {path:'request',label:'Request'},
-    {path:'status',label:'Status'},
-    {path:'approvals',label:'Approval'},
-    {path:'group',label:'Groups'},
-    {path:'others',label:'Others'},
-{path:'project-dashboard', label:'project dashboard'}]
+    let menu=[{path:'lt/dashboard',label:'Dashboard'},
+    {path:'lt/request',label:'Request'},
+    {path:'lt/status',label:'Status'},
+    {path:'lt/approvals',label:'Approval'},
+    {path:'lt/group',label:'Groups'},
+    {path:'lt/others',label:'Others'},
+{path:'lt/project-dashboard', label:'project dashboard'}]
     return (
         <div className={`side-bar ${displaySideBar ? '': 'hide'}`}>
             <ul className={`side-bar__list`}>
